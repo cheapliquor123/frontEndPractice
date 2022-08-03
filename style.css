@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(107, 204, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    
+}
+
+p {
+    text-align: center;
+    font-size-adjust: inherit;
+    font-style: oblique;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-style: normal;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px;
+  }
