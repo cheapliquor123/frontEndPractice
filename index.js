@@ -6,7 +6,7 @@
 
 // //functions 
 
-// // document.getElementById("yourName").innerHTML = "Enter Your Full Name"  
+document.getElementById("count-el").innerHTML = 10  
 
 // let myAge = 26;
 
@@ -32,14 +32,14 @@
 
 // sumOfRaces()
 
-let lapsCompleted = 0;
+// let lapsCompleted = 0;
 
-function incrementOfLaps() {
-    lapsCompleted = lapsCompleted +1;
-}
+// function incrementOfLaps() {
+//     lapsCompleted = lapsCompleted +1;
+// }
 
-incrementOfLaps()
-incrementOfLaps()
-incrementOfLaps()
+// incrementOfLaps()
+// incrementOfLaps()
+// incrementOfLaps()
 
-console.log(lapsCompleted)
+// console.log(lapsCompleted)
