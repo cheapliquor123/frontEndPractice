@@ -8,39 +8,31 @@
     <link rel="stylesheet"  href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <h1>
+        This is a ticker app
+    </h1>
 
     <p>
-        Please select a card in your brain.
+        Please click on the button to increase the count.
     </p>
 
-    <div>
-        <form>
-            <label for="id" id="yourName">Enter your name:</label><br>
-            <input type="text" id="fname" name="fname"><br><br>
-            <input type="submit" value="Submit">
-          </form>
-    </div>
-
-    <hr>
-
-    <h1>
-        People Entered
+    <h1 id="increamentext">
+        0
     </h1>
-    <div>
-        <h1 id="count-el">
-            0
-        </h1>
-        <button type="button" id="increment-btn">
-            Press to increase
-        </button>
-    </div>
-    <h1>hi Uday</h1>
 
+    <button  class="button" onclick="increamentButton()">
+        increament
+    </button>
 
-    <script src="index.js">
-      
-    </script>
-    <p>heel</p>
+    <button  class="button" onclick="decreamentButton()">
+        decreament
+    </button>
+
+    <button class="button" onclick="refresh()">
+        restart
+    </button>
+    
+    <script src="index.js"></script>
+
 </body>
 </html>
